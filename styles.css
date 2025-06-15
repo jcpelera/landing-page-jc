@@ -1,0 +1,40 @@
+.logo {
+}
+
+header,
+footer {
+    font-family: Roboto;
+    background-color: #1F2937;
+    box-sizing: border-box;
+}
+
+.testimonial { 
+    background-color: #E5E7EB;
+    height: 150px;
+}
+
+header {
+    font-size: 24px;
+    color: #F9FAF8;
+    height: 100px;
+}
+
+.hero {
+    font-family: Roboto;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 250px;
+}
+
+.card {
+    height: 250px;
+}
+.action {
+    height: 100px;
+    width: 700px;
+    margin: 68px;
+    background-color: #3882F6;
+}
+footer {
+    height: 50px;
+}
