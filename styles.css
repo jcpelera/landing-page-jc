@@ -41,7 +41,7 @@ header {
     padding-bottom: 5px;
 }
 .card {
-    height: 250px;
+    height: 300px;
 }
 .action {
     height: 100px;
@@ -89,4 +89,25 @@ a {
     font-size: 17px;
     border: none;
     font-weight: bold;
+}
+.card-text {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Roboto;
+    padding: 20px
+}
+.card-pics {
+    width: 150px;
+    height: 150px;
+}
+.card-pic-text {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.card-desc{
+    width: 150px;
+    padding-bottom: 30px;
+    text-align: center;
 }
