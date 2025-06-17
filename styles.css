@@ -10,7 +10,7 @@ footer {
 
 .testimonial { 
     background-color: #E5E7EB;
-    height: 150px;
+    height: 175px;
 }
 
 header {
@@ -48,6 +48,10 @@ header {
     width: 700px;
     margin: 68px;
     background-color: #3882F6;
+}
+.action-section {
+    display:flex;
+    justify-content: center;
 }
 footer {
     height: 50px;
@@ -110,4 +114,23 @@ a {
     width: 150px;
     padding-bottom: 30px;
     text-align: center;
+}
+
+.quote {
+    font-size: 24px;
+    color: #1F2937;
+    font-style: light italic;
+    text-align: center;
+    width: 400px;
+}
+.quote-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.quoted {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
 }
