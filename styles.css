@@ -43,18 +43,14 @@ header {
 .card {
     height: 300px;
 }
-.action {
-    height: 100px;
-    width: 700px;
+.action-section{
+    height: 150px;
+    width: 900px;
     margin: 68px;
     background-color: #3882F6;
 }
-.action-section {
-    display:flex;
-    justify-content: center;
-}
 footer {
-    height: 50px;
+    height: 100px;
 }
 
 .header {
@@ -133,4 +129,49 @@ a {
     font-size: 20px;
     font-weight: bold;
     text-align: right;
+}
+.action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 100px;
+}
+.left-action {
+    display: flex;
+    flex-direction: column;
+}
+.main-action{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+}
+.action {
+    font-weight: bold;
+    font-size: 30px;
+    color: #F9FAF8;
+    font-family: Roboto;
+}
+.sub-action {
+    color: #F9FAF8;
+    font-family: Roboto;
+    font-size: 20px;
+}
+.follow {
+    background-color: #3882F6;
+    font-family: Roboto;
+    border-color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+    color:#F9FAF8;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+.copyright{
+    font-family: Roboto;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
